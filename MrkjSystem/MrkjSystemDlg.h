@@ -144,4 +144,5 @@ private:
 
 public:
     afx_msg void OnMenuRealHushen();
+	afx_msg void OnMenuitemOnlybeta();
 };

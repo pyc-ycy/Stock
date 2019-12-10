@@ -18,7 +18,7 @@
 #include "DialogSetting.h"
 #include "DialogScreenShot.h"
 #include "ScreenTools.h"
-
+#include "Beta.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -72,6 +72,7 @@ BEGIN_MESSAGE_MAP(CMrkjSystemDlg, CDialogEx)
     ON_COMMAND(ID_MENU_ABOUT, &CMrkjSystemDlg::OnMenuAbout)
     ON_WM_CTLCOLOR()
     ON_COMMAND(ID_MENU_REAL_HUSHEN, &CMrkjSystemDlg::OnMenuRealHushen)
+	ON_COMMAND(ID_MENUITEM_ONLYBETA, &CMrkjSystemDlg::OnMenuitemOnlybeta)
 END_MESSAGE_MAP()
 
 
@@ -428,4 +429,14 @@ HBRUSH CMrkjSystemDlg::OnCtlColor(CDC *pDC, CWnd *pWnd, UINT nCtlColor)
     }
     // TODO:  如果默认的不是所需画笔，则返回另一个画笔
     return hbr;
+}
+
+
+void CMrkjSystemDlg::OnMenuitemOnlybeta()
+{
+	// TODO: 在此添加命令处理程序代码
+    /*Beta dlg;
+    dlg.DoModal();*/
+    Beta* dlg = new Beta();
+    dlg->Create(IDD_DIALOG_BEITA);
 }

@@ -213,6 +213,9 @@
     <ClInclude Include="DialogFilterKind.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Beta.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -333,6 +336,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="DialogFilterKind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Beta.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

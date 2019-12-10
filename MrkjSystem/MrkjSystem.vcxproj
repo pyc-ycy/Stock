@@ -189,6 +189,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Beta.h" />
     <ClInclude Include="CandlestickSerie.h" />
     <ClInclude Include="CApplication.h" />
     <ClInclude Include="Config.h" />
@@ -245,6 +246,7 @@
     <ClInclude Include="VerticalAxis.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Beta.cpp" />
     <ClCompile Include="CandlestickSerie.cpp" />
     <ClCompile Include="CursorTip.cpp" />
     <ClCompile Include="DayDataEntry.cpp" />

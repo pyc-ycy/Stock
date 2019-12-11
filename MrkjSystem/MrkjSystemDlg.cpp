@@ -75,6 +75,7 @@ BEGIN_MESSAGE_MAP(CMrkjSystemDlg, CDialogEx)
     ON_COMMAND(ID_MENU_REAL_HUSHEN, &CMrkjSystemDlg::OnMenuRealHushen)
 	ON_COMMAND(ID_MENUITEM_ONLYBETA, &CMrkjSystemDlg::OnMenuitemOnlybeta)
 	ON_COMMAND(ID_MENUITEM_GROUPBETA, &CMrkjSystemDlg::OnMenuitemGroupbeta)
+    ON_COMMAND(ID_MENUITEM_VAR, &CMrkjSystemDlg::OnMenuitemVar)
 END_MESSAGE_MAP()
 
 
@@ -175,6 +176,8 @@ BOOL CMrkjSystemDlg::OnInitDialog()
         m_vDlgPtr.push_back(m_pDlgKindSelect);
         m_vDlgPtr.push_back(m_pDlgRealtimeData);
         m_vDlgPtr.push_back(m_pDlgSetting);
+        m_vDlgPtr.push_back(m_pDlgGroupBeta);
+        m_vDlgPtr.push_back(m_pDlgVar);
 
         CRect rc;
         {
@@ -192,6 +195,8 @@ BOOL CMrkjSystemDlg::OnInitDialog()
         m_pDlgKindSelect->Create(IDD_DIALOG_KIND_SELECT, this);
         m_pDlgRealtimeData->Create(IDD_DIALOG_REALTIME_DATA, this);
         m_pDlgSetting->Create(IDD_DIALOG_SETTING, this);
+        m_pDlgGroupBeta->Create(IDD_DIALOG_GROUPBETA, this);
+        m_pDlgVar->Create(IDD_DIALOG_VAR, this);
         //初始时全部不显示
         for each(auto pdlg in m_vDlgPtr) {
             pdlg->MoveWindow(rc);
@@ -447,6 +452,12 @@ void CMrkjSystemDlg::OnMenuitemOnlybeta()
 void CMrkjSystemDlg::OnMenuitemGroupbeta()
 {
 	// TODO: 在此添加命令处理程序代码
-    GroupBeta dlg;
-    dlg.DoModal();
+    ShowChange(m_pDlgGroupBeta);
+}
+
+
+void CMrkjSystemDlg::OnMenuitemVar()
+{
+    // TODO: 在此添加命令处理程序代码
+    ShowChange(m_pDlgVar);
 }

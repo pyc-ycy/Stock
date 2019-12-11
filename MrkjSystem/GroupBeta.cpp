@@ -39,6 +39,8 @@ void GroupBeta::DoDataExchange(CDataExchange* pDX)
 BEGIN_MESSAGE_MAP(GroupBeta, CDialogEx)
 	ON_BN_CLICKED(IDC_BUTTON_CAL_GROUPBETA, &GroupBeta::OnClickedButtonCalGroupbeta)
 	ON_BN_CLICKED(IDC_BUTTON_ADDLISTITEM, &GroupBeta::OnClickedButtonAddlistitem)
+	ON_BN_CLICKED(IDC_BUTTON_CLEARDATA, &GroupBeta::OnClickedButtonCleardata)
+	ON_BN_CLICKED(IDC_BUTTON_ELEAR_GOUPBETA_LIST, &GroupBeta::OnClickedButtonElearGoupbetaList)
 END_MESSAGE_MAP()
 
 
@@ -105,6 +107,7 @@ void GroupBeta::OnClickedButtonCalGroupbeta()
 	CString str;
 	str.Format(L"%lf", result);
 	m_GroupBeta.SetWindowText(str);
+	delete[] beta, xj, sl, qz;
 }
 
 
@@ -117,4 +120,22 @@ void GroupBeta::OnClickedButtonAddlistitem()
 	m_list.SetItemText(index, EListIndexBeta, m_StockBeta);
 	m_list.SetItemText(index, ElistIndexValue, m_StockValue);
 	m_list.SetItemText(index, EListIndexNum, m_StockNum);
+}
+
+
+void GroupBeta::OnClickedButtonCleardata()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	m_StockID = L"";
+	m_StockBeta = L"";
+	m_StockValue = L"";
+	m_StockNum = L"";
+	UpdateData(false);
+}
+
+
+void GroupBeta::OnClickedButtonElearGoupbetaList()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	m_list.DeleteAllItems();
 }

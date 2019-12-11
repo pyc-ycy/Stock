@@ -222,6 +222,7 @@
     <ClInclude Include="DialogScreenShot.h" />
     <ClInclude Include="DialogSetting.h" />
     <ClInclude Include="DialogStockFilter.h" />
+    <ClInclude Include="DlgVar.h" />
     <ClInclude Include="DrawBuySellPanel.h" />
     <ClInclude Include="DrawKLineImagePanel.h" />
     <ClInclude Include="GroupBeta.h" />
@@ -273,6 +274,7 @@
     <ClCompile Include="DialogScreenShot.cpp" />
     <ClCompile Include="DialogSetting.cpp" />
     <ClCompile Include="DialogStockFilter.cpp" />
+    <ClCompile Include="DlgVar.cpp" />
     <ClCompile Include="DrawBuySellPanel.cpp" />
     <ClCompile Include="DrawKLineImagePanel.cpp" />
     <ClCompile Include="GroupBeta.cpp" />

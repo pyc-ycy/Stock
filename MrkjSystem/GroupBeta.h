@@ -42,4 +42,6 @@ public:
 	virtual BOOL OnInitDialog();
 	afx_msg void OnClickedButtonCalGroupbeta();
 	afx_msg void OnClickedButtonAddlistitem();
+	afx_msg void OnClickedButtonCleardata();
+	afx_msg void OnClickedButtonElearGoupbetaList();
 };

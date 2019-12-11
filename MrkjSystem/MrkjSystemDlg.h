@@ -15,7 +15,8 @@
 #include "DialogRealtimeData.h"
 #include "DialogSetting.h"
 #include "DialogHuShen.h"
-
+#include "GroupBeta.h"
+#include "DlgVar.h"
 
 // CMrkjSystemDlg 对话框
 class CMrkjSystemDlg : public CDialogEx
@@ -126,6 +127,10 @@ private:
 
     // 子对话框 : 系统设置
     CDialogSetting *m_pDlgSetting{new CDialogSetting()};
+    //子对话框：计算组合β系数
+    GroupBeta* m_pDlgGroupBeta{ new GroupBeta() };
+    //子对话框：计算VAR
+    DlgVar* m_pDlgVar{ new DlgVar() };
 
     // 子对话框 : 帮助
     // 没有对话框, 弹出网页
@@ -146,4 +151,5 @@ public:
     afx_msg void OnMenuRealHushen();
 	afx_msg void OnMenuitemOnlybeta();
 	afx_msg void OnMenuitemGroupbeta();
+    afx_msg void OnMenuitemVar();
 };

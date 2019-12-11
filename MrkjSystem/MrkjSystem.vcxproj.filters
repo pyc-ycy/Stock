@@ -219,6 +219,9 @@
     <ClInclude Include="GroupBeta.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="DlgVar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -345,6 +348,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="GroupBeta.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgVar.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

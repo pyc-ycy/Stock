@@ -224,6 +224,7 @@
     <ClInclude Include="DialogStockFilter.h" />
     <ClInclude Include="DrawBuySellPanel.h" />
     <ClInclude Include="DrawKLineImagePanel.h" />
+    <ClInclude Include="GroupBeta.h" />
     <ClInclude Include="HorizontalAxis.h" />
     <ClInclude Include="HttpDataEntry.h" />
     <ClInclude Include="HttpDataSource.h" />
@@ -274,6 +275,7 @@
     <ClCompile Include="DialogStockFilter.cpp" />
     <ClCompile Include="DrawBuySellPanel.cpp" />
     <ClCompile Include="DrawKLineImagePanel.cpp" />
+    <ClCompile Include="GroupBeta.cpp" />
     <ClCompile Include="HorizontalAxis.cpp" />
     <ClCompile Include="HttpDataEntry.cpp" />
     <ClCompile Include="HttpDataSource.cpp" />

@@ -19,6 +19,7 @@
 #include "DialogScreenShot.h"
 #include "ScreenTools.h"
 #include "Beta.h"
+#include "GroupBeta.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -73,6 +74,7 @@ BEGIN_MESSAGE_MAP(CMrkjSystemDlg, CDialogEx)
     ON_WM_CTLCOLOR()
     ON_COMMAND(ID_MENU_REAL_HUSHEN, &CMrkjSystemDlg::OnMenuRealHushen)
 	ON_COMMAND(ID_MENUITEM_ONLYBETA, &CMrkjSystemDlg::OnMenuitemOnlybeta)
+	ON_COMMAND(ID_MENUITEM_GROUPBETA, &CMrkjSystemDlg::OnMenuitemGroupbeta)
 END_MESSAGE_MAP()
 
 
@@ -439,4 +441,12 @@ void CMrkjSystemDlg::OnMenuitemOnlybeta()
     dlg.DoModal();*/
     Beta* dlg = new Beta();
     dlg->Create(IDD_DIALOG_BEITA);
+}
+
+
+void CMrkjSystemDlg::OnMenuitemGroupbeta()
+{
+	// TODO: 在此添加命令处理程序代码
+    GroupBeta dlg;
+    dlg.DoModal();
 }

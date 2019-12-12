@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:Setup1"
+"ProjectName" = "8:证券分析系统"
 "LanguageId" = "3:2052"
 "CodePage" = "3:936"
 "UILanguageId" = "3:2052"
@@ -15,7 +15,67 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_262B75E50A7549C3819919E0C8B2529E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2B99EFD5435748FA889FCC440C0B0AB4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_39AACEB713B245A9A0E104DAD43A1756"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5D955DE146434FDCB938BA1F1063F340"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_84CCD472A06D40CAB99213C8D2887ED4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_86890B18FCBF4071A664535B7BDADB5C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_978D4970CF72497E90B547B6B1C1DB62"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A0C4861F143A46A282C6D0E599BB61A1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A792BE6558A44175BDCA884373A52A43"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C1108504FD15498382DCC7003ACCA371"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FB037D8DDCC1455593AF64C01ED49488"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -37,6 +97,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -53,6 +121,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -74,6 +158,206 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_262B75E50A7549C3819919E0C8B2529E"
+            {
+            "SourcePath" = "8:imm32.dll"
+            "TargetName" = "8:imm32.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_77712C80F7E54E11A5691505C2BA24D9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2B99EFD5435748FA889FCC440C0B0AB4"
+            {
+            "SourcePath" = "8:Wldap32.dll"
+            "TargetName" = "8:Wldap32.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_77712C80F7E54E11A5691505C2BA24D9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5D955DE146434FDCB938BA1F1063F340"
+            {
+            "SourcePath" = "8:uxtheme.dll"
+            "TargetName" = "8:uxtheme.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_77712C80F7E54E11A5691505C2BA24D9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:4"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_84CCD472A06D40CAB99213C8D2887ED4"
+            {
+            "SourcePath" = "8:..\\Debug\\sys.ini"
+            "TargetName" = "8:sys.ini"
+            "Tag" = "8:"
+            "Folder" = "8:_77712C80F7E54E11A5691505C2BA24D9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_86890B18FCBF4071A664535B7BDADB5C"
+            {
+            "SourcePath" = "8:msimg32.dll"
+            "TargetName" = "8:msimg32.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_77712C80F7E54E11A5691505C2BA24D9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_978D4970CF72497E90B547B6B1C1DB62"
+            {
+            "SourcePath" = "8:GdiPlus.dll"
+            "TargetName" = "8:GdiPlus.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_77712C80F7E54E11A5691505C2BA24D9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A0C4861F143A46A282C6D0E599BB61A1"
+            {
+            "SourcePath" = "8:..\\MrkjSystem\\res\\MrkjSystem.ico"
+            "TargetName" = "8:MrkjSystem.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_77712C80F7E54E11A5691505C2BA24D9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A792BE6558A44175BDCA884373A52A43"
+            {
+            "SourcePath" = "8:oledlg.dll"
+            "TargetName" = "8:oledlg.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_77712C80F7E54E11A5691505C2BA24D9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C1108504FD15498382DCC7003ACCA371"
+            {
+            "SourcePath" = "8:..\\Debug\\help.html"
+            "TargetName" = "8:help.html"
+            "Tag" = "8:"
+            "Folder" = "8:_77712C80F7E54E11A5691505C2BA24D9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FB037D8DDCC1455593AF64C01ED49488"
+            {
+            "SourcePath" = "8:oleacc.dll"
+            "TargetName" = "8:oleacc.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_77712C80F7E54E11A5691505C2BA24D9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -131,7 +415,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Setup1"
         "ProductCode" = "8:{86AE3FA5-56CF-4920-ADA3-205A5E1D0B0F}"
-        "PackageCode" = "8:{0C7CCA20-E9DB-4C35-B4A6-E9180F8DA482}"
+        "PackageCode" = "8:{DE4EB976-6503-454A-8366-EF48EDF336CE}"
         "UpgradeCode" = "8:{732AF45E-8289-49D8-AD7B-C9583C6E2CA5}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -253,7 +537,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C8C96B838588406DA65B64692FB64743"
             {
-            "Name" = "8:ZQFXSetup"
+            "Name" = "8:证券分析系统"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -262,7 +546,7 @@
             "Target" = "8:_39AACEB713B245A9A0E104DAD43A1756"
             "Folder" = "8:_E56491F463564735B4647405C02E3E89"
             "WorkingFolder" = "8:_77712C80F7E54E11A5691505C2BA24D9"
-            "Icon" = "8:"
+            "Icon" = "8:_A0C4861F143A46A282C6D0E599BB61A1"
             "Feature" = "8:"
             }
         }
@@ -666,7 +950,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_39AACEB713B245A9A0E104DAD43A1756"
             {
-            "SourcePath" = "8:..\\Debug\\证券分析.exe"
+            "SourcePath" = "8:..\\Release\\证券分析.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_77712C80F7E54E11A5691505C2BA24D9"

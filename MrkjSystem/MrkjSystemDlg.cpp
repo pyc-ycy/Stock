@@ -20,6 +20,7 @@
 #include "ScreenTools.h"
 #include "Beta.h"
 #include "GroupBeta.h"
+#include "DlgQWSYL.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -76,6 +77,7 @@ BEGIN_MESSAGE_MAP(CMrkjSystemDlg, CDialogEx)
 	ON_COMMAND(ID_MENUITEM_ONLYBETA, &CMrkjSystemDlg::OnMenuitemOnlybeta)
 	ON_COMMAND(ID_MENUITEM_GROUPBETA, &CMrkjSystemDlg::OnMenuitemGroupbeta)
     ON_COMMAND(ID_MENUITEM_VAR, &CMrkjSystemDlg::OnMenuitemVar)
+	ON_COMMAND(ID_MENUITEM_QWSYL, &CMrkjSystemDlg::OnMenuitemQwsyl)
 END_MESSAGE_MAP()
 
 
@@ -460,4 +462,12 @@ void CMrkjSystemDlg::OnMenuitemVar()
 {
     // TODO: 在此添加命令处理程序代码
     ShowChange(m_pDlgVar);
+}
+
+
+void CMrkjSystemDlg::OnMenuitemQwsyl()
+{
+	// TODO: 在此添加命令处理程序代码
+    DlgQWSYL dlg;
+    dlg.DoModal();
 }

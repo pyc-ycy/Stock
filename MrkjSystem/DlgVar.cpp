@@ -406,6 +406,14 @@ void DlgVar::OnBnClickedButton8()
 	double** numXFC = new double* [num];	// 协方差矩阵
 	for (int i = 0; i < num; i++)
 		numXFC[i] = new double[num];
+	for (int i = 0; i < num; i++)
+	{
+		for (int j = 0; j < num; j++)
+		{
+			numXGXS[i][j] = 0.0;
+			numXFC[i][j] = 0.0;
+		}
+	}
 	//期望收益数组、标准差数组和投资总额数组赋值
 	int len = m_list1.GetItemCount();
 	for (int i = 0; i < len; i++)
@@ -439,6 +447,7 @@ void DlgVar::OnBnClickedButton8()
 	double FSFXJZ = VaR_dx(ze, Z, ZHBZC);
 	temp.Format(L"%lf", FSFXJZ);
 	m_FSFXJZ.SetWindowText(temp);
+	delete[] numQWSYL, numBL, numBZC;
 }
 
 

@@ -224,6 +224,7 @@
     <ClInclude Include="DialogStockFilter.h" />
     <ClInclude Include="DlgQWSYL.h" />
     <ClInclude Include="DlgVar.h" />
+    <ClInclude Include="DlgXGXS.h" />
     <ClInclude Include="DrawBuySellPanel.h" />
     <ClInclude Include="DrawKLineImagePanel.h" />
     <ClInclude Include="GroupBeta.h" />
@@ -277,6 +278,7 @@
     <ClCompile Include="DialogStockFilter.cpp" />
     <ClCompile Include="DlgQWSYL.cpp" />
     <ClCompile Include="DlgVar.cpp" />
+    <ClCompile Include="DlgXGXS.cpp" />
     <ClCompile Include="DrawBuySellPanel.cpp" />
     <ClCompile Include="DrawKLineImagePanel.cpp" />
     <ClCompile Include="GroupBeta.cpp" />

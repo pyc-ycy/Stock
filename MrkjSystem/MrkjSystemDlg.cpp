@@ -21,7 +21,7 @@
 #include "Beta.h"
 #include "GroupBeta.h"
 #include "DlgQWSYL.h"
-
+#include "DlgXGXS.h"
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -78,6 +78,7 @@ BEGIN_MESSAGE_MAP(CMrkjSystemDlg, CDialogEx)
 	ON_COMMAND(ID_MENUITEM_GROUPBETA, &CMrkjSystemDlg::OnMenuitemGroupbeta)
     ON_COMMAND(ID_MENUITEM_VAR, &CMrkjSystemDlg::OnMenuitemVar)
 	ON_COMMAND(ID_MENUITEM_QWSYL, &CMrkjSystemDlg::OnMenuitemQwsyl)
+	ON_COMMAND(ID_MENUITEM_XGXS, &CMrkjSystemDlg::OnMenuitemXgxs)
 END_MESSAGE_MAP()
 
 
@@ -469,5 +470,13 @@ void CMrkjSystemDlg::OnMenuitemQwsyl()
 {
 	// TODO: 在此添加命令处理程序代码
     DlgQWSYL dlg;
+    dlg.DoModal();
+}
+
+
+void CMrkjSystemDlg::OnMenuitemXgxs()
+{
+	// TODO: 在此添加命令处理程序代码
+    DlgXGXS dlg;
     dlg.DoModal();
 }

@@ -155,3 +155,4 @@ void DlgQWSYL::OnBnClickedButton7()
 	str.Format(L"%lf", result);
 	m_QWSYLBZC.SetWindowText(str);
 }
+

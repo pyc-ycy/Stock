@@ -153,4 +153,5 @@ public:
 	afx_msg void OnMenuitemGroupbeta();
     afx_msg void OnMenuitemVar();
 	afx_msg void OnMenuitemQwsyl();
+	afx_msg void OnMenuitemXgxs();
 };
